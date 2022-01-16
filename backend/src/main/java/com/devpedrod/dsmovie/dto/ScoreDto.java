@@ -10,5 +10,5 @@ import lombok.Setter;
 public class ScoreDto {
     private Long movieId;
     private String email;
-    private Double Score;
+    private Double score;
 }

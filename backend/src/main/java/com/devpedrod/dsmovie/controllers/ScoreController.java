@@ -1,10 +1,8 @@
 package com.devpedrod.dsmovie.controllers;
 
-import com.devpedrod.dsmovie.dto.MovieDto;
 import com.devpedrod.dsmovie.dto.ScoreDto;
 import com.devpedrod.dsmovie.services.ScoreService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -20,6 +18,7 @@ public class ScoreController {
 
     @PutMapping("")
     public ResponseEntity<Void> saveScore(@RequestBody ScoreDto scoreDto){
+        scoreService.saveScore(scoreDto);
         return ResponseEntity.ok().build();
     }
 }
