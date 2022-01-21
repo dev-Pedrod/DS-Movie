@@ -20,8 +20,8 @@ Here are the technologies used in this project.
 ## Prints
 
 <p align="center">
-  <img src="https://github.com/dev-Pedrod/DS-Movie/blob/readme/redImages/Filmes.PNG" hspace="20" width="230"/>
-  <img src="https://github.com/dev-Pedrod/DS-Movie/blob/readme/redImages/Avaliar.PNG" hspace="20" width="230"/> 
+  <img src="https://github.com/dev-Pedrod/DS-Movie/blob/readme/redImages/Filmes.PNG" hspace="50" width="380"/>
+  <img src="https://github.com/dev-Pedrod/DS-Movie/blob/readme/redImages/Avaliar.PNG" hspace="50" width="380"/> 
 </p>
 
 ---
